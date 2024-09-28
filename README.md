@@ -1,4 +1,4 @@
-![Currency Converter Logo](docs/assets/images/logo-512.png)
+![Currency Converter Logo](docs/images/logo-512.png)
 # Currency Converter
 
 ## Description
