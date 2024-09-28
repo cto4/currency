@@ -2,7 +2,7 @@ const CACHE = "sw-cache";
 var fileList = [
   "./assets/index-BmRG5oYe.js",
   "./assets/index-CIPfjss3.css",
-  "./assets/manifest-BnUWcwAj.json",
+  "./assets/manifest-BcDXo-up.json",
   "./favicon.ico",
   "./images/logo-192.png",
   "./images/logo-512.png",
