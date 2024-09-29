@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Currency Converter</title>
+    <meta name="description" content="All Currencies Converter by https://github.com/cto4" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta id="themeColor" name="theme-color" content="#ffffff" />
+    <link rel="manifest" href="./src/assets/manifest.json" />
+    <script>
+      if (!location.href.includes("localhost") || location.hash == "#install") {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
